@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Информация о GitHub</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="dark">
     <header>
-        <h1>GitHub</h1>
-        <label for="themeSwitcher">Светлая / Тёмная тема:</label>
-        <input type="checkbox" id="themeSwitcher">
+        <img src="img\6925912.png" alt="logo" class="logo">
     </header>
 
     <section id="what-is-github">
@@ -21,42 +19,63 @@
     <section id="features">
         <h2>Особенности</h2>
         <ul>
+            <div class="conti">
+            <div class="conti__container">
             <li>Хостинг репозиториев</li>
-            <li>Возможность совместной работы</li>
-            <li>Система управления версиями</li>
-            <li>Интеграция с CI/CD</li>
+        </div>
+        <div class="conti__container">    
+        <li>Возможность совместной работы</li>
+    </div>
+    <div class="conti__container">       
+    <li>Система управления версиями</li>
+</div> 
+<div class="conti__container">            
+<li>Интеграция с CI/CD</li>
+</div>
+</div>
         </ul>
     </section>
 
     <section id="getting-started">
         <h2>Как начать?</h2>
         <p>Создайте аккаунт на GitHub, создайте новый репозиторий и начните работать над проектами с командой.</p>
+        <a href="https://github.com/Aison132/github"><img src="img\kiovvc2smechwlixokgrghcmfqw.jpeg" alt="dowl" class="get"></a>
     </section>
 
     <section id="using-github">
-        <h2>Как использовать GitHub?</h2>
-        <p>Используйте интерфейс для загрузки кода, управления задачами, обсуждения с командой и выпуска новых версий программного обеспечения.</p>
+        <h2 class="getings1">Как использовать GitHub?</h2>
+        <p class="getings">Используйте интерфейс для загрузки кода, управления задачами, обсуждения с командой и выпуска новых версий программного обеспечения.</p>
+        <div class="slider">
+            <div class="slides">
+                <img src="img\4dc9e1edd18b99bde0793788f720efbf.jpg" alt="Изображение 1">
+                <img src="img\Снимок экрана 2024-09-20 150107.png" alt="Изображение 2">
+                <img src="img\Снимок экрана 2024-09-20 150152.png" alt="Изображение 3">
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
     </section>
 
-    <section id="community">
+    <section  class="community">
+        <div class="clss">
         <h2>Сообщество</h2>
         <p>GitHub имеет обширное сообщество разработчиков, где вы можете задать вопросы, найти ответы и сотрудничать.</p>
+    </div>
     </section>
 
-    <section id="github-actions">
+    <section class="github-actions">
         <h2>GitHub Actions</h2>
         <p>Инструмент для автоматизации рабочего процесса, позволяющий запускать сценарии, когда происходят изменения в репозитории.</p>
     </section>
 
-    <section id="contributing">
+    <section class="contributing">
         <h2>Как сделать вклад?</h2>
         <p>Ищите проекты с открытым исходным кодом и вносите изменения, создавая запросы на изменения (pull requests).</p>
     </section>
+    <script src="script.js"></script>
 
     <footer>
         <p>&copy; 2024 GitHub Info Page</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
